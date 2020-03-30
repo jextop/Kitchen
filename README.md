@@ -13,4 +13,4 @@ IntelliJ IDEA, Maven
 # 启动客户端
 ./launch.sh
 
-![](https://github.com/jextop/Kitchen/blob/master/kitchen.jpg)
+![](https://github.com/jextop/Kitchen/blob/master/kitchen.png)
