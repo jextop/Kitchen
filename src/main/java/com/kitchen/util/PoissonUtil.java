@@ -1,4 +1,4 @@
-package com.track.util;
+package com.kitchen.util;
 
 import org.apache.commons.math3.distribution.PoissonDistribution;
 

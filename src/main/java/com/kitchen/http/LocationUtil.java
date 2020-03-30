@@ -1,8 +1,8 @@
-package com.track.http;
+package com.kitchen.http;
 
 import com.alibaba.fastjson.JSONObject;
-import com.track.util.JsonUtil;
-import com.track.util.StrUtil;
+import com.kitchen.util.JsonUtil;
+import com.kitchen.util.StrUtil;
 import org.apache.commons.lang3.ArrayUtils;
 
 public class LocationUtil {

@@ -1,7 +1,7 @@
-package com.track;
+package com.kitchen;
 
 public class App {
     public static void main(String[] args) {
-        TrackFrame.showFrame();
+        MainFrame.showFrame();
     }
 }

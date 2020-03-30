@@ -1,10 +1,10 @@
-package com.track.http;
+package com.kitchen.http;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.track.util.B64Util;
-import com.track.util.LogUtil;
-import com.track.util.StrUtil;
+import com.kitchen.util.B64Util;
+import com.kitchen.util.LogUtil;
+import com.kitchen.util.StrUtil;
 import org.junit.Assert;
 import org.junit.Test;
 

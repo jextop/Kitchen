@@ -1,6 +1,5 @@
-package com.track;
+package com.kitchen;
 
-import com.track.App;
 import org.junit.Test;
 
 /**

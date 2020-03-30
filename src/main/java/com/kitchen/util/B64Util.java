@@ -1,21 +1,25 @@
-package com.track.http;
+package com.kitchen.util;
+
+import org.apache.commons.codec.binary.Base64;
 
 import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
 
-public class UrlUtil {
+public class B64Util {
     public static String encode(String str) {
         if (str == null) {
             return null;
         }
 
         try {
-            return URLEncoder.encode(str, "UTF-8");
+            return encode(str.getBytes("UTF-8"));
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         return null;
+    }
+
+    public static String encode(byte[] bytes) {
+        return bytes == null ? null : Base64.encodeBase64String(bytes);
     }
 
     public static String decode(String str) {
@@ -23,11 +27,16 @@ public class UrlUtil {
             return null;
         }
 
+        byte[] bytes = decodeForBytes(str);
         try {
-            return URLDecoder.decode(str, "UTF-8");
+            return new String(bytes, "UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         return null;
+    }
+
+    public static byte[] decodeForBytes(String str) {
+        return str == null ? null : Base64.decodeBase64(str);
     }
 }

@@ -1,7 +1,7 @@
-package com.track.http;
+package com.kitchen.http;
 
-import com.track.util.LogUtil;
-import com.track.util.StrUtil;
+import com.kitchen.util.LogUtil;
+import com.kitchen.util.StrUtil;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;

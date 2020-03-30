@@ -1,4 +1,4 @@
-# 代驾定位客户端
+# 中央厨房订单管理系统，模拟发送测试订单
 Java + HttpClient + Web服务
 
 # 部署Web服务
@@ -13,4 +13,4 @@ IntelliJ IDEA, Maven
 # 启动客户端
 ./launch.sh
 
-![](https://github.com/jextop/Track/blob/master/Track.jpg)
+![](https://github.com/jextop/Kitchen/blob/master/kitchen.jpg)

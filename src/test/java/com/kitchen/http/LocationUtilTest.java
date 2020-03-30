@@ -1,7 +1,7 @@
-package com.track.http;
+package com.kitchen.http;
 
 import com.alibaba.fastjson.JSONObject;
-import com.track.util.LogUtil;
+import com.kitchen.util.LogUtil;
 import org.junit.Assert;
 import org.junit.Test;
 
