@@ -24,7 +24,7 @@ public class OrderJob implements Job {
 
     static {
         try {
-            String jsonStr = ResUtil.readAsStr("kitchen_order.json");
+            String jsonStr = ResUtil.readAsStr("data.json");
             orderList = JSONArray.parseArray(jsonStr);
         } catch (IOException e) {
             LogUtil.error(e.getMessage());
