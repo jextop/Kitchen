@@ -1,0 +1,14 @@
+[
+  {
+    "name": "热干面",
+    "temp": "hot"
+  },
+  {
+    "name": "凉拌黄瓜",
+    "temp": "cold"
+  },
+  {
+    "name": "冰镇啤酒",
+    "temp": "frozen"
+  }
+]
